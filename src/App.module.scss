@@ -1,0 +1,9 @@
+@use './styles/global' as *;
+
+*{
+    margin: 0px;
+}
+
+.testingModule{
+    background-color: $navy;
+}
