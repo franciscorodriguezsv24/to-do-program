@@ -1,0 +1,45 @@
+@use '../../styles/global' as *;
+
+.homeContainer{
+    position: relative;
+    font-family: $font-family;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.homeImgBackground{
+    background-image: url("/src/assets/bg-desktop-light.jpg");
+    background-size: cover;
+    height: 25vh;
+    flex:0 0 auto;
+
+    @media (max-width: 800px) {
+    background-image: url("/src/assets/bg-mobile-light.jpg");
+    height: 30vh;
+    }
+}
+
+.homeBackground{
+    flex: 1 1 auto;
+    background-color: var(--primary-gray);
+}
+
+.testingAbsolute{
+    position: absolute;
+    color: white;
+    display: flex;
+    left: 20%;
+    right: 20%;
+    top: 5%;
+    bottom: 5%;
+    background-color: $blue;
+    padding: 20px;
+
+    @media (max-width: 800px) {
+    left: 5%;
+    right: 5%;
+    }
+
+}
