@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+//global styles 
+
+$blue: hsl(220, 98%, 61%);
+$check-bg: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+
+//light-theme
+
+$primary-gray: hsl(0, 0%, 98%);
+$purple: hsl(234, 39%, 85%);
+$second-gray: hsl(233, 11%, 84%);
+$third-gray: hsl(236, 9%, 61%);
+$navy: hsl(235, 19%, 35%);
+
+//dark-theme
+
+$dark-primary-navy: hsl(235, 21%, 11%);
+$dark-second-navy: hsl(235, 24%, 19%);
+$dark-purple-1: hsl(234, 39%, 85%);
+$dark-purple-1-hover: hsl(236, 33%, 92%);
+$dark-purple-2:hsl(235, 16%, 43%);
+$dark-purple-3: hsl(233, 14%, 35%);
+$dark-purple-4: hsl(237, 14%, 26%);
+$dark-gray: hsl(236, 9%, 61%);
+
+//body-size
+
+$font-size: 18px;
+
+//
+$font-family: "Josefin Sans", sans-serif;
+$Weights: 400, 700
+
