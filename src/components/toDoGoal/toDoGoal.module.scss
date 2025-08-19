@@ -1,0 +1,70 @@
+@use '../../styles/global' as *;
+
+.toDoContainerCards{
+    background-color: var(--primary-gray);
+    height: 20rem;
+}
+
+.toDoCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.selectCard {
+    border-radius: 50%;
+    padding: 1px;
+    width: 28px;
+    height: 28px;
+    background: var(--purple)
+}
+.selectCardSelected{
+    border-radius: 50%;
+    padding: 1px;
+    width: 28px;
+    height: 28px;
+    background: $check-bg;
+}
+
+
+.buttonCard {
+    border-radius: 50%;
+    background-color: var(--primary-gray);
+    border: none;
+    width: 28px;
+    height: 28px;
+}
+
+.buttonCardSelected{
+    border-radius: 50%;
+    background: $check-bg;
+    border: none;
+    width: 28px;
+    height: 28px;
+}
+
+.toDoTextDone{
+    text-decoration-line: line-through;
+}
+
+.selectCard:hover {
+    background: $check-bg;
+}
+
+.toDoText{
+    margin: 0px;
+    color: var(--text-color)
+}
+
+.toDoTextDone{
+    text-decoration-line: line-through;
+    margin: 0px;
+    color: var(--text-color)
+}
+
+.toDoDelete{
+    background-color: var(--primary-gray);
+    border: none;
+}

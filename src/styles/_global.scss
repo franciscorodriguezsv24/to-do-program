@@ -3,7 +3,8 @@
 //global styles 
 
 $blue: hsl(220, 98%, 61%);
-$check-bg: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+$check-bg: linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+
 
 //light-theme
 :root{
