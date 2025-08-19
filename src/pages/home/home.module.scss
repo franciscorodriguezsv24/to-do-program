@@ -10,13 +10,13 @@
 }
 
 .homeImgBackground{
-    background-image: url("/src/assets/bg-desktop-light.jpg");
+    background-image: var(--img-desktop);
     background-size: cover;
     height: 25vh;
     flex:0 0 auto;
 
     @media (max-width: 800px) {
-    background-image: url("/src/assets/bg-mobile-light.jpg");
+    background-image: var(--img-mobile);
     height: 30vh;
     }
 }
@@ -26,20 +26,35 @@
     background-color: var(--primary-gray);
 }
 
-.testingAbsolute{
+.toDoMainContainer{
     position: absolute;
     color: white;
     display: flex;
+    flex-direction: column;
     left: 20%;
     right: 20%;
     top: 5%;
     bottom: 5%;
-    background-color: $blue;
+    background-color: transparent;
     padding: 20px;
 
     @media (max-width: 800px) {
     left: 5%;
     right: 5%;
     }
+}
 
+.toDoHeader{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.toDoTitle{
+    margin: 0px;
+    display: flex;
+    padding-top: 7px;
 }

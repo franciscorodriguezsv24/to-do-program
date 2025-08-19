@@ -13,6 +13,8 @@ $check-bg: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
 --purple-hove: hsl(235, 19%, 35%);
 --text-color: hsl(235, 21%, 11%);
 --placeholder-gray: hsl(236, 9%, 61%);
+--img-desktop: url("/src/assets/bg-desktop-light.jpg");
+--img-mobile: url("/src/assets/bg-mobile-light.jpg");
 }
 
 
@@ -24,6 +26,9 @@ $check-bg: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
 --purple-hover: hsl(236, 33%, 92%);
 --text-color:hsl(0, 0%, 98%);
 --placeholder-gray:  hsl(235, 16%, 43%);
+--img-desktop: url("/src/assets/bg-desktop-dark.jpg");
+--img-mobile: url("/src/assets/bg-mobile-dark.jpg");
+
 }
 
 //body-size
