@@ -75,22 +75,3 @@
 .toDoModeButton:hover{
     cursor: pointer;
 }
-
-.toDoNewItemContainer{
-    height: 3.5rem;
-    background-color: var(--primary-gray);
-    display: flex;
-    align-items: center;
-    padding-left: 10%;
-    border-radius: 5px;
-}
-
-.toDoNewItemInput{
-    height: 70%;
-    font-size: 1rem;
-    width: 100%;
-    background-color: var(--primary-gray);
-    border: none;
-    outline: none;
-    color: var(--text-color)
-}

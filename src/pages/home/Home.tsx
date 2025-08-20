@@ -23,10 +23,6 @@ export const Home = () => {
           {theme === "light" ? <img src={Moon} alt='moon'/> : <img src={Sun} alt='sun'/>}
         </button>
         </div>
-
-        <div className={styles.toDoNewItemContainer}>
-          <input className={styles.toDoNewItemInput}/>
-        </div>
         <Suspense fallback={<>Loading...</>}>
           <ToDoGoal/>
         </Suspense>
