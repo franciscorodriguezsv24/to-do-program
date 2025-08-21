@@ -8,7 +8,7 @@
     box-shadow: 0 70px 20px rgba(0, 0, 0, 0.25);
 
     @media (max-width: 800px) {
-    max-height: 45vh;
+    max-height: 35vh;
         
     }
 }
@@ -144,6 +144,13 @@
 
 .toDoFooterButton:hover{
     color: $blue;
+}
+
+.filterActive{
+    color: $blue;
+    border: none;
+    background-color: var(--primary-gray);
+    height: fit-content;
 }
 
 .buttomInputCard{
