@@ -1,0 +1,77 @@
+@use '../../styles/global' as *;
+
+.homeContainer{
+    position: relative;
+    font-family: $font-family;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.homeImgBackground{
+    background-image: var(--img-desktop);
+    background-size: cover;
+    height: 30vh;
+    flex:0 0 auto;
+
+    @media (max-width: 800px) {
+    background-image: var(--img-mobile);
+    height: 30vh;
+    }
+}
+
+.homeBackground{
+    flex: 1 1 auto;
+    background-color: var(--second-gray);
+}
+
+.toDoMainContainer{
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    left: 30%;
+    right: 30%;
+    top: 6%;
+    bottom: 5%;
+    background-color: transparent;
+    padding: 20px;
+
+    @media (max-width: 800px) {
+    top:5%;
+    left: 5%;
+    right: 5%;
+    }
+}
+
+.toDoHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.toDoTitle{
+    margin: 0px;
+    display: flex;
+    padding-top: 7px;
+    letter-spacing: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.toDoModeButton{
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+}
+
+.toDoModeButton:hover{
+    cursor: pointer;
+}
