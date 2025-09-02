@@ -1,12 +1,12 @@
 import { defineConfig, type UserConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import react from "@vitejs/plugin-react-swc";
 
-// https://vitejs.dev/config/
+// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
   test: {
     environment: "jsdom",
+    globals: true,
+    setupFiles: "src/tests/setup.js",
   },
-  globals: true,
-  setupFiles: "./tests/setup.js",
 } as UserConfig);
